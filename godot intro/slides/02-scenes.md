@@ -1,15 +1,9 @@
-# Scenes as Instantiable Modules
+# Grouping Nodes into Scenes
 
-### Scenes = Classes
-* A Scene is a saved branch of the tree.
-* Acts as a **Blueprint** or **Class**.
+* A *Scene* is a saved, reusable branch of the tree.
+* You can run any scene independently for unit testing and debugging.
 
-### Encapsulation
-* A "Level" scene instances "Player" and "Enemy" scenes.
-* **Recursive Design**: You can run any scene independently for unit testing and debugging.
-
-<div class="mt-8 flex justify-center items-center gap-8">
-  <div class="border p-4 rounded bg-gray-800">Player.tscn</div>
-  <div class="text-2xl">→</div>
-  <div class="border p-4 rounded bg-gray-800">Main.tscn</div>
+<div class="mt-4">
+<p class="text-sm text-center opacity-60 mb-2">'Level' scene contains multiple other scenes</p>
+<img src="/images/multiple-scenes.png" class="h-40 mx-auto mb-8" />
 </div>

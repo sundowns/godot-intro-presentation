@@ -1,4 +1,4 @@
-# Communication: Signals & Exports
+# Signals & Exports
 
 ### Decoupling Logic
 * **Signals (Observer Pattern)**: Nodes emit events; others listen.
@@ -18,3 +18,5 @@ func take_damage(amount):
     if health <= 0:
         health_depleted.emit(health)
 ```
+
+<img src="/images/exports.png" class="h-40 mx-auto mb-8" />

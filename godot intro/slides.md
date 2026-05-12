@@ -1,14 +1,12 @@
 ---
 theme: seriph
-title: Godot 101 for Software Engineers
+title: Godot 101
 layout: center
 class: text-center
 ---
 
 <img src="/images/logo_large_color_dark.png" class="h-40 mx-auto mb-8" />
 
-# Godot 101
-## An Engineering Perspective
 
 ---
 src: ./slides/01-intro.md

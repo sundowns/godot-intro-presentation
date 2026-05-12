@@ -8,6 +8,8 @@
 ### Interchangeable Stats
 Use `@export` to inject different data into the same "Monster" scene.
 
+# TODO: screenshot of resource exports in editor (and maybe a directory of MonsterStats saved?)
+
 ```gdscript
 # stats_resource.gd
 extends Resource
