@@ -24,6 +24,9 @@ src: ./slides/03-communication.md
 src: ./slides/03a-resources.md
 ---
 ---
+src: ./slides/03b-signals.md
+---
+---
 src: ./slides/04-physics.md
 ---
 ---

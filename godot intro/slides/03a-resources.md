@@ -3,13 +3,9 @@
 ### What are Resources?
 * Dedicated data containers (`.tres` files).
 * Shared across multiple instances (Flyweight pattern).
-* Example: Textures, Scripts, and custom Data.
+* Examples: textures, scripts, curves, custom data.
 
-### Interchangeable Stats
-Use `@export` to inject different data into the same "Monster" scene.
-
-# TODO: screenshot of resource exports in editor (and maybe a directory of MonsterStats saved?)
-
+Or.... *custom* resources:
 ```gdscript
 # stats_resource.gd
 extends Resource

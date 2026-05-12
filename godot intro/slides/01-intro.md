@@ -1,7 +1,3 @@
----
-layout: center
----
-
 # The Node-Tree Architecture
 
 * Godot uses a **Scene Tree** - everything is a Node

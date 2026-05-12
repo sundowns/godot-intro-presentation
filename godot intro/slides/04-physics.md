@@ -1,14 +1,15 @@
 # Physics & Collision Logic
 
-### Interactive Entities
-* **CharacterBody3D/2D**: Built-in logic for player-controlled movement (`move_and_slide`).
-* **Area3D/2D**: Proximity detection and triggers (overlap vs. collision).
+### Off-the-shelf nodes
+* **CharacterBody3D/2D**: Off-the-shelf nodes for player-controlled movement.
+* **Area3D/2D**: Proximity detection and triggers.
 
-### Collision Management
-* **Layers**: "Who am I?"
-* **Masks**: "What do I hit?"
-* Defined via bitmasks—extremely efficient for complex interactions.
-
-<div class="mt-4">
-  <p class="text-center text-sm text-gray-400">[Screenshot: Collision Matrix in Godot Inspector]</p>
+<div class="mt-8">
+<p class="text-sm text-center opacity-60 mb-2">Collision management - layers vs. masks</p>
+<img src="/images/collision-matrix.png" class="h-50 mx-auto mb-8" />
 </div>
+
+<!-- <div class="text-center">
+    <p></p>
+    <img src="/images/collision-matrix.png" class="h-48 rounded shadow-lg" />
+</div> -->

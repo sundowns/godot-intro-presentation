@@ -1,22 +1,22 @@
-# Signals & Exports
+# Configuration with Exports
 
-### Decoupling Logic
-* **Signals (Observer Pattern)**: Nodes emit events; others listen.
-* **Rule of Thumb**: "Signal Up, Call Down".
+<div class="grid grid-cols-2 gap-12 mt-12">
+<div class="mt-24">
 
-### Configuration
-* **Exports**: Expose variables to the Inspector.
+* Use `@export` to expose properties to the editor.
+* Allows tweaking values without changing code.
+
+</div>
+<div class="flex flex-col items-center justify-center">
 
 ```gdscript
-@export var speed = 400
-@export var rotation_speed = 1.5
-
-signal health_depleted(final_value)
-
-func take_damage(amount):
-    health -= amount
-    if health <= 0:
-        health_depleted.emit(health)
+@export var speed: float = 400
+@export var rotation_speed: float = 1.5
+@export var colour: Color = Color.RED;
 ```
+<div class="mt-8">
 
-<img src="/images/exports.png" class="h-40 mx-auto mb-8" />
+<img src="/images/exports.png" class="rounded-lg shadow-xl" />
+</div>
+</div>
+</div>
