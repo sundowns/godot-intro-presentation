@@ -10,7 +10,7 @@
 </div>
 <div class="flex flex-col items-center">
 
-<p class="text-sm opacity-60 mb-2">'Level' scene contains multiple instances</p>
+<p class="text-sm opacity-60 mb-2">'Level' scene contains multiple others</p>
 <img src="/images/multiple-scenes.png" class="h-48 rounded shadow-lg" />
 </div>
 </div>
